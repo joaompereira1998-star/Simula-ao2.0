@@ -439,7 +439,7 @@
   <div class="container">
     <div class="header">
       <h1>Simulação do Parlamento Português</h1>
-      <p>Modo AR — orador no centro, restantes tempos à volta</p>
+      <p>Modo CNN — orador no centro, restantes tempos à volta</p>
     </div>
 
     <div class="top-bar">
@@ -486,17 +486,17 @@
 
   <script>
     const parties = [
-      { key: "psd", label: "PSD", minutes: 3, logo: "psd.png" },
-      { key: "ch", label: "CH", minutes: 3, logo: "ch.png" },
-      { key: "ps", label: "PS", minutes: 3, logo: "ps.png" },
-      { key: "il", label: "IL", minutes: 3, logo: "il.png" },
-      { key: "l", label: "L", minutes: 3, logo: "l.png" },
-      { key: "pcp", label: "PCP", minutes: 3, logo: "pcp.png" },
-      { key: "cdspp", label: "CDS-PP", minutes: 3, logo: "cdspp.png" },
-      { key: "be", label: "BE", minutes: 3, logo: "be.png" },
-      { key: "pan", label: "PAN", minutes: 3, logo: "pan.png" },
-      { key: "jpp", label: "JPP", minutes: 3, logo: "jpp.png" }
-    ];
+  { key: "psd", label: "PSD", minutes: 3, logo: "psd.png" },
+  { key: "ch", label: "CH", minutes: 3, logo: "ch.png" },
+  { key: "ps", label: "PS", minutes: 3, logo: "ps.png" },
+  { key: "il", label: "IL", minutes: 3, logo: "il.png" },
+  { key: "l", label: "L", minutes: 3, logo: "l.png" },
+  { key: "pcp", label: "PCP", minutes: 3, logo: "pcp.png" },
+  { key: "cdspp", label: "CDS-PP", minutes: 3, logo: "cdspp.png" },
+  { key: "be", label: "BE", minutes: 3, logo: "be.png" },
+  { key: "pan", label: "PAN", minutes: 3, logo: "pan.png" },
+  { key: "jpp", label: "JPP", minutes: 3, logo: "jpp.png" }
+];
 
     const leftKeys = ["psd", "ch", "ps", "il", "l"];
     const rightKeys = ["pcp", "cdspp", "be", "pan", "jpp"];
